@@ -1,0 +1,24 @@
+@url = https://fictional-barnacle-pjw455jwgjwvcxg4-8080.app.github.dev
+
+###
+GET {{url}}/tarefas
+
+###
+POST {{url}}/tarefas
+Content-Type: application/json
+
+{
+    "id": 1,
+    "descricao": "azul"
+}
+
+###
+PUT {{url}}/tarefas/1
+Content-Type: application/json
+
+{
+    "descricao": "verde"
+}
+
+###
+DELETE {{url}}/tarefas/1

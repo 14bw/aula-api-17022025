@@ -1,1 +1,10 @@
-GET https://fictional-barnacle-pjw455jwgjwvcxg4-8080.app.github.dev/
+@url = https://fictional-barnacle-pjw455jwgjwvcxg4-8080.app.github.dev
+
+###
+GET {{url}}/
+
+###
+POST {{url}}/
+Content-Type: application/text
+
+Limão
